@@ -1,15 +1,33 @@
 body {
     background-color:yellow;
-
+    margin:0;
 }
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
 img{
-    height:400px;
+    height:100%;
     width:500px;
 }
 .link{
     color:red;
-    float:left;
-    width:90%;
     height:32PX;
+}
+nav ul{
+    display: inline;
+}
 
+.floatLeft{
+    width:50%;
+    float:left;
+}
+.floatRight{
+    width:50%;
+    float:right;
+}
+#wrapper{
+    width:100%;
 }
