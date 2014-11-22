@@ -8,5 +8,8 @@ img{
 }
 .link{
     color:red;
+    float:left;
+    width:90%;
+    height:32PX;
 
 }
